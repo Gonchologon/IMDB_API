@@ -23,7 +23,7 @@ class DataBaseMovies(ABC):
     def showAllMovies(self):
         pass
 
-    #Muestra todas las peliculas de la base de datos
+    #Muestra una las peliculas de la base de datos
     @abstractmethod
     def showMovie(self):
         pass
